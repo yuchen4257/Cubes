@@ -1,0 +1,99 @@
+
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+  position:absolute;
+  top: 0;
+  bottom:0;
+  left:0;  
+  background:#000000;
+  padding:100px;
+  margin-bottom: 0;
+}
+
+ul {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 670px;
+  width: 10%;
+  padding: 20px;
+  text-align: left;
+ }
+
+li{
+  margin: 20px 0 0 10px;
+}
+
+h5{
+    position:relative;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #fff;
+}
+
+button, #color {
+  border: 2px solid #fff;
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  outline: none;
+}
+button, #bgcolor {
+  border: 2px solid #fff;
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  outline: none;
+}
+
+button span{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 6px;
+}
+
+button span, #color, #delete, #save:hover {
+  cursor: pointer;
+}
+
+#new{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#delete, #save{
+    font-weight: 500;
+    font-size: 0.7em;
+}
+
+#last, #next {
+    border: 2px solid #fff;
+    background: transparent;
+    overflow: hidden;
+    width: 50%;
+    outline: none;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+
+#last{
+    border-right: 0px;
+}
+
