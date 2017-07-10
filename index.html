@@ -1,0 +1,55 @@
+
+<html >
+  <head>
+    <title>Cube Drawing</title>
+    <link rel="stylesheet" href="css/style.css"> 
+  </head>
+
+  <body>
+      <form>
+          <ul>
+            <li>
+                <button id="new"><span>N E W</span></button>
+            </li>
+            <li>
+                <button id="last"><span>LAST</span></button><button id="next"><span>NEXT</span></button>
+            </li>
+               <li>
+                <h5>P O S I T I O N:</h5>
+              <input id="xposition" type="range" value=window.innerWidth/2 min="300" max="1450">
+                <input id="yposition" type="range" value=window.innerHeight/2 min="-50" max="900">
+            </li>
+            <li>
+                <h5>X - D I R E C T I O N:</h5>
+                <input id="x1" type="range" value="100" min="0" max="500">
+            </li>
+            <li>
+                <h5>Z - D I R E C T I O N:</h5>
+              <input id="x2" type="range" value="100" min="0" max="500">
+            </li>
+            <li>
+                <h5>Y - D I R E C T I O N:</h5>
+                <input id="y" type="range" value="100" min="0" max="500">
+            </li>
+            <li>
+                <h5>C O L O R :</h5>
+                <input id="color" type="color" value="#b6e7fd">
+            </li>
+           
+            <li>
+                <button id="delete"><span>D E L E T E</span></button>
+            </li>
+            <li>
+                <button id="save"><span>V I E W</span></button>
+            </li>
+          </ul>
+      </form>
+      <canvas id="canvas"></canvas>
+
+      
+      <script src="js/helpers.js"></script>
+      <script src="js/tools/newCube.js"></script>
+      <script src="js/actions/animation.js"></script>
+      
+  </body>
+</html>
